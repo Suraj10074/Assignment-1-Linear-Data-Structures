@@ -1,9 +1,9 @@
 # Assignment-1-Linear-Data-Structures
 
-# ===============================================Que. (1)=====================================================
+# Que. (1)
 
-Delete the elements in an linked list whose sum is equal to zero
-
+```javascript
+// Delete the elements in an linked list whose sum is equal to zero
 <!-- Input: head = [1,2,-3,3,1]
 Output: [3,1]
 
@@ -12,7 +12,7 @@ Output: [1,2,4]
 
 Input: head = [1,2,3,-3,-2]
 Output: [1] --> -->
-```javascript
+
 var removeZeroSumSublists = function (head) {
   let newList = new ListNode(0);
   newList.next = head;
@@ -36,7 +36,7 @@ var removeZeroSumSublists = function (head) {
 };
 
 
-# =====================================================Que. (2) =================================================
+# Que. (2)
 
 Reverse a linked list in groups of given size
 <!-- 
@@ -136,7 +136,7 @@ var head; //head of list
 		document.write("Reversed list<br/>");
 		printList()
     
-# =================================================== Que (3) ======================================================
+# Que (3)
 
 // Merge a linked list into another linked list at alternate positions.
 
@@ -225,7 +225,7 @@ printList(p);
 document.write( "Modified Second Linked List:<br>");
 printList(q);
 
-# ============================================== Que (4) ============================================================
+# Que (4)
 
 // In an array, Count Pairs with given sum
 // Javascript implementation of simple method to find count of
@@ -262,7 +262,7 @@ const toFindDuplicates = arry => arry.filter((item, index) => arr.indexOf(item) 
 const duplicateElementa = tofindDuplicates(arry);
 console.log(duplicateElements);
 
-// ============================================== Que (6) ======================================================
+# Que (6)
 
 // Find the Kth largest and Kth smallest number in an array
 
@@ -279,7 +279,7 @@ function kthSmallest(arr, n, k)
     let arr = [ 12, 3, 5, 7, 19 ];
     let n = arr.length, k = 2;
     document.write("K'th smallest element is " + kthSmallest(arr, n, k));
-# ============================================== Que (7) ======================================================
+# Que (7)
 
 // Move all the negative elements to one side of the array
 
@@ -311,7 +311,7 @@ function printArray(arr, n)
     rearrange(arr, n);
     printArray(arr, n);
 
-# ============================================== Que (8) ======================================================
+# Que (8)
 
 // Reverse a string using a stack data structure
 
@@ -346,7 +346,7 @@ class Stack {
      return reversedStr;}
 
 
-# ============================================== Que (9) ======================================================
+# Que (9)
   
 // Evaluate a postfix expression using stack
 
@@ -399,7 +399,7 @@ function evaluatePostfix(exp)
         return stack.pop();  
 }
   
-  # ============================================= Que (10) ==========================================================
+# Que (10)
 
 // Implement a queue using the stack data structure
 
