@@ -1,8 +1,8 @@
 # Assignment-1-Linear-Data-Structures
 
+```javascript
 # Que. (1)
 
-```javascript
 // Delete the elements in an linked list whose sum is equal to zero
 <!-- Input: head = [1,2,-3,3,1]
 Output: [3,1]
