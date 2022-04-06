@@ -12,7 +12,7 @@ Output: [1,2,4]
 
 Input: head = [1,2,3,-3,-2]
 Output: [1] --> -->
-
+```javascript
 var removeZeroSumSublists = function (head) {
   let newList = new ListNode(0);
   newList.next = head;
@@ -459,4 +459,4 @@ q.enQueue(3);
  
 document.write(q.deQueue() + "<br>");
 document.write(q.deQueue() + "<br>");
-document.write(q.deQueue() + "<br>");
+document.write(q.deQueue() + "<br>");```
